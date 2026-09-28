@@ -5,7 +5,7 @@ const translations = {
     team_title: "Conformado por...",
     role_ceo: "CEO y director",
     role_music: "Compositor musical",
-    role_lead_qa: "Lead en QA",
+    role_lead_qa: "Líder de QA",
     role_qa: "QA",
     games_title: "Nuestros juegos",
     blinded_description: "BLINDED es un juego de terror psicológico-pasivo dónde estás ciego.",
