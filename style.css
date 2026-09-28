@@ -1,0 +1,178 @@
+@font-face {
+    font-family: Poppins;
+    src: url("fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: Poppins-Bold;
+    src: url("fonts/Poppins-Bold.ttf");
+}
+
+body {
+    font-family: Poppins;
+    letter-spacing: 1px;
+    background: linear-gradient(white, rgb(245, 245, 245));
+}
+
+.about-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 350%;
+    font-family: Poppins-Bold;
+    letter-spacing: 3px;
+}
+
+.about-us-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-logo {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.our-games {
+    font-family: Poppins-Bold;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 200%;
+    letter-spacing: 5px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(36, 36, 36);
+}
+
+.bottom-page {
+    font-size: 130%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blinded-game {
+    background-image: url("assets/BLINDED_proto_portrait2arrangement.png");
+    background-size: cover;
+    background-position: center;
+    font-family: Poppins-Bold;
+    font-size: 270%;
+    display: flex;
+    padding: 12px;
+    flex-direction: column;
+    letter-spacing: 2px;
+    justify-content: flex-end;
+    align-items: left;
+    color: white;
+    width: 520px;
+    height: 800px;
+    background-color: rgb(47, 47, 47);
+    border-radius: 14px;
+}
+
+.blinded-game:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.blinded-text {
+    font-size: 45%;
+    letter-spacing: 1px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: black;
+}
+
+p {
+    max-width: 1550px;
+    font-size: 170%;
+}
+
+button {
+    background: linear-gradient(rgb(33, 33, 33), rgb(25, 25, 25));
+    border-radius: 8px;
+    border: none;
+    color: rgb(152, 152, 152);
+    font-family: Poppins;
+    height: 45px;
+    max-width: 250px;
+    font-size: 50%;
+}
+
+#proximamente-button {
+    margin-top: 15px;
+}
+
+.top-page {
+    color: white;
+    background-color: #171717;
+}
+
+::selection {
+    background-color: #8DEB7D;
+    color: #1C1C24;
+    border-radius: 1px;
+}
+
+bold {
+    color: #8DEB7D;
+}
+
+.invisible-link {
+    color: white;
+    text-decoration: none;
+}
+
+.by {
+    background-color: rgb(209, 209, 209);
+    user-select: none;
+}
+
+h4, h3 {
+    gap: 0px;
+}
+
+.by-text {
+    letter-spacing: 5px;
+    user-select: text;
+}
+
+.equipo {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.profile-foto {
+    border-radius: 50%;
+}
+
+.miembro {
+  display: flex;
+  flex-direction: column; /* Alinea foto, nombre y cargo en vertical */
+  align-items: center;     /* Centra la foto y los textos en el eje horizontal */
+  text-align: center;      /* Centra el texto */
+  width: 280px;            /* Ancho fijo para que todas las columnas midan lo mismo */
+}
