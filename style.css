@@ -176,3 +176,9 @@ h4, h3 {
   text-align: center;      /* Centra el texto */
   width: 280px;            /* Ancho fijo para que todas las columnas midan lo mismo */
 }
+
+.lang-button {
+    width: 80px;
+    color: white;
+    font-size: 80%;
+}
