@@ -229,3 +229,29 @@ h4, h3 {
         font-size: 200%;
     }
 }
+
+.news-text {
+    font-family: Poppins-Bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 320%;
+    letter-spacing: 5px;
+    color: white;
+}
+
+.news {
+    height: 305px;
+    background: linear-gradient(rgb(23, 23, 23), rgb(209, 209, 209));
+    /* background-color: rgb(23, 23, 23); */
+}
+
+.news-normal-text {
+    color: rgb(255, 255, 255);
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
