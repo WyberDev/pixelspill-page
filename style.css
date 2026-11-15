@@ -192,7 +192,7 @@ h4, h3 {
     gap: 2rem;
     flex-wrap: wrap;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1600px;
     margin: 0 auto;
 }
 
@@ -206,7 +206,7 @@ h4, h3 {
     align-items: center;
     text-align: center;
     width: 100%;
-    max-width: 260px; /* Adaptable en pantallas muy chicas */
+    max-width: 240px; /* Adaptable en pantallas muy chicas */
 }
 
 /* --- Botón de Idioma --- */

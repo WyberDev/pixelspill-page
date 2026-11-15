@@ -7,6 +7,7 @@ const translations = {
     role_music: "Compositor musical",
     role_lead_qa: "Lead en QA",
     role_qa: "QA",
+    role_assistant_direction: "Asistente de director",
     games_title: "Nuestros juegos",
     blinded_description: "BLINDED es un juego de terror psicológico-pasivo dónde estás ciego.",
     coming_soon: "Próximamente...",
@@ -26,6 +27,7 @@ const translations = {
     role_music: "Music Composer",
     role_lead_qa: "Lead QA",
     role_qa: "QA Tester",
+    role_assistant_direction: "Director Assistant",
     games_title: "Our games",
     blinded_description: "BLINDED is a passive-psychological horror game where you are blind.",
     coming_soon: "Coming Soon...",
@@ -54,9 +56,6 @@ function changeLanguage(lang) {
     termsLink.href = (lang === 'en') ? 'EULA-en.html' : 'EULA.html';
   }
 
-  // 3. Guarda la preferencia en el navegador
-  localStorage.setItem('pixelspill_lang', lang);
-  document.documentElement.lang = lang;
 }
 
 // Carga el idioma al iniciar la página
